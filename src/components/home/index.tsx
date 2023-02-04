@@ -7,7 +7,7 @@ const Home = () => {
       <video
         src={backgroundVideo}
         autoPlay
-        loop
+        // loop
         muted
       />
     </Container>

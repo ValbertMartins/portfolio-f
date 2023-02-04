@@ -11,7 +11,7 @@ const Header = () => {
         <ContactText>ENTRE EM CONTATO</ContactText>
       </Link>
       <Link to="portfolio">
-        <PortfolioText>PORTFOLIO</PortfolioText>
+        <PortfolioText>PORTFÓLIO</PortfolioText>
       </Link>
     </Container>
   )

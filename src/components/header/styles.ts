@@ -16,24 +16,32 @@ export const Container = styled.section`
   display: flex;
   justify-content: center;
   align-items: end;
-  gap: 4rem;
+  gap: 10rem;
+  font-style: normal;
 
   a {
     text-decoration: none;
     display: block;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: #96f2d7;
-    transform: scaleY(1.5);
   }
 `
 
-export const PortfolioText = styled.p``
+export const PortfolioText = styled.p`
+  :hover {
+    color: #ef4136;
+  }
+`
 
 export const ArtistText = styled.p`
   position: relative;
-  color: #96f2d7;
+
   transition: 300ms;
 
+  :hover {
+    color: #ef4136;
+  }
+  /* 
   :hover::after,
   :hover::before {
     background-color: #fbb5b5;
@@ -64,6 +72,12 @@ export const ArtistText = styled.p`
     left: 4.5rem;
     background-color: #96f2d7;
     pointer-events: none;
+  } */
+`
+export const ContactText = styled.p`
+  transition: 300ms;
+
+  :hover {
+    color: #ef4136;
   }
 `
-export const ContactText = styled.p``
